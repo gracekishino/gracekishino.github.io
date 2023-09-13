@@ -1,5 +1,5 @@
-# Portfolio Website
+# Grace Kishino Portfolio Website
 
-under construction 🚧 
+My GitHub Pages hosted portfolio website (currently under construction 🚧).
 
 
