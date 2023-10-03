@@ -71,6 +71,16 @@ header {
     border-radius: 2rem;
 }
 
+#projects-grid > div img {
+   width: 100%;
+   opacity: 0.8;
+   border-radius: 0.5rem;
+}
+
+#projects-grid > div:hover img {
+    opacity: 1;
+}
+
 #skills-bg {
     background-color: white;
     padding: 1rem;
