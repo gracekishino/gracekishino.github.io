@@ -4,12 +4,14 @@ html {
     font-family: 'Work Sans', sans-serif;
     color: black;
     background-color: #f8f8ec;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 h2 {
@@ -47,6 +49,23 @@ header {
     z-index: 10;
     background-color: white;
     padding: 1rem;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
 }
 
 #about, #projects, #skills, #contact {
