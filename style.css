@@ -1,4 +1,110 @@
-* {
-    font-family: 'Space Mono', monospace;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;700&display=swap');
+
+html {
+    font-family: 'Work Sans', sans-serif;
     color: black;
+    background-color: f8f8ec;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #0099cc;
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+ul {
+    margin-bottom: 1rem;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+    padding: 1rem;
+}
+
+#about, #projects, #skills, #contact {
+    margin: 3rem auto;
+    width: 80%;
+}
+
+#skills, #contact {
+    max-width: 500px;
+}
+
+#projects-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template: repeat(auto-fit, minmax(300px, 1fr)) / repeat(auto-fit, minmax(300px, 1fr));
+    margin: 2rem auto;
+}
+
+#projects-grid > div {
+    background-color: antiquewhite;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+#skills-bg {
+    background-color: white;
+    padding: 1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid antiquewhite;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #0099cc;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0099aa;
+  }
+
+footer {
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2rem;
 }
