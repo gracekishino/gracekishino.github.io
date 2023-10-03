@@ -1,5 +1,5 @@
-# Grace Kishino Portfolio Website
+# Grace Kishino Portfolio 
 
-My portfolio website (currently under construction 🚧).
+My portfolio website, view it here: [gracekishino.github.io](https://gracekishino.github.io/) ✨
 
 
