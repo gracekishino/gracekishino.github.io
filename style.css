@@ -103,7 +103,7 @@ nav ul li {
 
 #projects-grid > div {
     background-color: antiquewhite;
-    padding: 2rem;
+    padding: 2rem 2rem 1rem 2rem;
     border-radius: 2rem;
 }
 
