@@ -32,7 +32,7 @@ p {
 a {
     color: #3498DB;
     text-decoration: none;
-    transition: all .5s;
+    transition: all .7s;
 }
 
 a:hover {
@@ -129,7 +129,7 @@ nav ul li {
 }
 
 #skills-bg {
-    background-color: white;
+    background-color: #ffffff;
     padding: 1rem;
 }
 
@@ -162,7 +162,7 @@ input, textarea {
     border-radius: 0.5rem;
     cursor: pointer;
     font-size: 1.2rem;
-    transition: all .5s;
+    transition: all .7s;
   }
   
   button:hover {
