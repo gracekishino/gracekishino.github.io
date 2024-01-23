@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;700&display=swap');
-
 html {
-    font-family: 'Work Sans', sans-serif;
-    color: black;
+    color: #333;
     background-color: #f8f8ec;
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
@@ -18,17 +15,24 @@ h2 {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    color: #3498DB;
 }
 
 h3 {
     font-size: 1.25rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    color: #4A321D;
 }
 
 a {
-    color: #0099cc;
+    color: #3498DB;
     text-decoration: none;
+    transition: all .5s;
+}
+
+a:hover {
+    color: #4A321D;
 }
 
 p {
@@ -66,6 +70,7 @@ nav ul {
 
 nav ul li {
     margin: 0 1rem;
+    font-size: 1.1rem;
 }
 
 #about, #projects, #skills, #contact {
@@ -111,6 +116,7 @@ nav ul li {
    width: 100%;
    opacity: 0.8;
    border-radius: 0.5rem;
+   transition: opacity 550ms;
 }
 
 #projects-grid > div:hover img {
@@ -120,6 +126,14 @@ nav ul li {
 #skills-bg {
     background-color: white;
     padding: 1rem;
+}
+
+#skills h3 {
+    margin-top: 30px;
+}
+
+#contact h2 {
+    margin-bottom: 30px;
 }
 
 input, textarea {
@@ -135,7 +149,7 @@ input, textarea {
   
   button {
     width: 100%;
-    background-color: #0099cc;
+    background-color: #3498DB;
     color: white;
     padding: 1rem 1.25rem;
     margin: 0.5rem 0;
@@ -147,7 +161,7 @@ input, textarea {
   }
   
   button:hover {
-    background-color: #0099aa;
+    color: #4A321D;
   }
 
 footer {
