@@ -31,12 +31,16 @@ p {
 }
 a {
     color: #3498DB;
-    text-decoration: none;
     transition: all .7s;
+    text-decoration: none;
 }
 
 a:hover {
     color: #4A321D;
+}
+
+.view-code-link {
+    padding-left: 20px;
 }
 
 p {
@@ -164,9 +168,32 @@ input, textarea {
     font-size: 1.2rem;
     transition: all .7s;
   }
+
+  .small-button {
+    background-color: #3498DB;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all .7s;
+    margin-top: 0.5rem;
+    display: inline-block;
+  }
   
-  button:hover {
+  button:hover, .small-button:hover {
     background-color: #4A321D;
+    color: white;
+  }
+
+  .badge {
+    background-color: #ddd;
+    color: #4A321D;
+    padding: 0.3rem 0.7rem;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    display: inline-block;
+    margin-bottom: 0.7rem;
   }
 
 footer {
@@ -175,3 +202,4 @@ footer {
     background-color: white;
     padding: 2rem;
 }
+
