@@ -9,4 +9,4 @@ jobs:
     - name: Lighthouse
       uses: foo-software/lighthouse-check-action@master
       with:
-        urls: 'https://grace_k.github.io'
+        urls: 'https://gracekishino.github.io'
