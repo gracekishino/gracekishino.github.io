@@ -30,13 +30,13 @@ p {
     line-height: 125%;
 }
 a {
-    color: #3498DB;
+    color: #2977AB;
     transition: all .7s;
     text-decoration: none;
 }
 
 a:hover {
-    color: #4A321D;
+    color: #AD5C00;
 }
 
 .view-code-link {
