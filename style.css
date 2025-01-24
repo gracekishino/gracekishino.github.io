@@ -32,7 +32,6 @@ p {
 a {
     color: #2977AB;
     transition: all .7s;
-    text-decoration: none;
 }
 
 a:hover {
@@ -158,7 +157,7 @@ input, textarea {
   
   button {
     width: 100%;
-    background-color: #3498DB;
+    background-color: #2977AB;
     color: white;
     padding: 1rem 1.25rem;
     margin: 0.5rem 0;
@@ -170,7 +169,7 @@ input, textarea {
   }
 
   .small-button {
-    background-color: #3498DB;
+    background-color: #2977AB;
     color: white;
     border-radius: 0.5rem;
     padding: 0.5rem;
@@ -181,7 +180,7 @@ input, textarea {
   }
   
   button:hover, .small-button:hover {
-    background-color: #4A321D;
+    background-color: #2977AB;
     color: white;
   }
 
