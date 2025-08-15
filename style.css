@@ -129,6 +129,10 @@ nav ul li {
     opacity: 1;
 }
 
+#projects-grid li { 
+    padding-bottom: 10px;
+}
+
 #skills-bg {
     background-color: #ffffff;
     padding: 1rem;
@@ -136,10 +140,6 @@ nav ul li {
 
 #skills h3 {
     margin-top: 30px;
-}
-
-#skills li { 
-    padding-bottom: 10px;
 }
 
 #contact h2 {
