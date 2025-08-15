@@ -54,6 +54,14 @@ html {
     font-size: 1rem;
 }
 
+body {
+	font-family: 'Verdana', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Courier new', serif;
+}
+
 h1 {
     font-size: 1.7rem;
     font-weight: bold;
