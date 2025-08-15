@@ -55,11 +55,11 @@ html {
 }
 
 body {
-	font-family: 'Verdana', sans-serif;
+	font-family: 'Arial', sans-serif;
 }
 
 h1, h2, h3 {
-	font-family: 'Courier new', serif;
+	font-family: 'Courier New', serif;
 }
 
 h1 {
@@ -87,13 +87,14 @@ h3 {
 p {
     line-height: 125%;
 }
+
 a {
-    color: #53367A;
-    transition: all .7s;
+    color: #333;
+    transition: all .5s;
 }
 
 a:hover {
-    font-weight: bold;
+    color: #2977AB;
 }
 
 p {
@@ -120,6 +121,7 @@ header {
 nav {
     margin: 0 auto;
     max-width: 400px;
+	font-family: 'Courier New', serif;
 }
 
 nav ul {
