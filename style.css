@@ -51,6 +51,9 @@ ul {
     line-height: 120%;
 }
 
+li { 
+    padding-bottom: 10px;
+
 header {
     text-align: center;
     margin: 0 auto;
